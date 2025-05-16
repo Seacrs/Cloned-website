@@ -95,7 +95,7 @@ nav a:hover{
 .message p{
     color: white;
     margin-left: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Inter',sans-serif;
     margin-left: 20px;
 }
 .message a{
@@ -107,24 +107,33 @@ nav a:hover{
     padding: 15px 0 20px 0;
     height: 10px;
     width: 5%;
-    margin-left: 45vh;
+    margin-left: 70vh;
     margin-top: 10px;
 }
 .image-container, .trips{
     position: relative;
     display: inline-block;
+    gap: 5px;
     text-align: left;
 }
+.third{
+    margin: 10px 70px 10px 70px;
+}
+.accomodation{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 .image-container img{
-    width: 65%;
-    border-radius: 18px;
-    display: inline-block;
-    height: 200px;
+    width: 40vh;
+    box-sizing: border-box;
+    border-radius: 15px;
+    height: 50vh;
 }
 a{
     text-decoration: none;
 }
-/* .text{
+.text{
     position: absolute;
     top: 80%;
     left: 0%;
@@ -132,4 +141,4 @@ a{
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 18px;
-} */
+}
