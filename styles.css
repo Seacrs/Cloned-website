@@ -1,0 +1,121 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    
+}
+nav h2{
+    color: blue;
+    font-size: 4vh;
+    margin-top: 0;
+    margin-left: 35px;
+}
+nav div{
+    margin-left: 38%;
+}
+nav a{
+    margin: 0px 20px 0 20px;
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    color: blue
+}
+.first{
+    background-image: url("/images/family-4989137_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 16%;
+    height: 130px;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    font-size: 22px;
+    margin: 0;
+}
+.first h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+.first-form{
+    background-color: white;
+    border-radius: 100px;
+}
+.first-form, form{
+    width: 100%;
+}
+.first-form, form input, form select{
+    border-radius: 7px;
+    border-color: black;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#search, #date-data, #guests{
+    width: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    padding: 10px;
+}
+#submit{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(0, 102, 255, 0.897);
+    border-radius: 20px;
+    border-color: rgba(0, 102, 255, 0.897);
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+}
+.second{
+    margin: 10px 70px 10px 70px;
+    padding: 10px;
+    background-color: rgb(20, 26, 58);
+    justify-content: center;
+    border-radius: 20px;
+
+}
+.message{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 20px 0 20px;
+    
+}
+.message img{
+    width: 5%;
+}
+.message p{
+    color: white;
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.image-container, .trips{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+.image-container img{
+    width: 65%;
+    border-radius: 18px;
+    display: inline-block;
+    height: 200px;
+}
+a{
+    text-decoration: none;
+}
+/* .text{
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+} */
